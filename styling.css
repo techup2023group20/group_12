@@ -6,10 +6,13 @@
     text-align: center;
     background-color: #247BA0;
 }
-
+.p-image{
+    text-align: center;
+    font-size: 20px;
+}
 #foto1 {
-    width: 100%;
-      height: auto;
+    width: 50%;
+    height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,14 +39,16 @@ li a {
 }
 
 li a:hover {
-    background-color: #5ADBFF;
+    background-color: lightblue;
     height: 22px;
-    color: #247BA0;
+    color: white;
+    
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+    margin-top: 50px;
 }
 
 caption {
@@ -64,4 +69,8 @@ th {
     background-color: #5ADBFF;
     padding: 0.5em;
     text-align: right;
+}
+.festa{
+    font-size: 50px;
+    color: white    ;
 }
